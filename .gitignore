@@ -1,1 +1,7 @@
-models/*.pkl
+# Ignore trained models
+models/
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
