@@ -1,6 +1,8 @@
 # Ignore trained models
-models/
-*.pkl
+
+# Ignore everything inside models except .pkl files
+models/*
+!models/*.pkl
 
 # Python cache
 __pycache__/
