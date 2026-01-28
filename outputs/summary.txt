@@ -1,0 +1,30 @@
+EDA & DATA QUALITY REPORT
+=========================
+
+RAW DATASET
+        Industry       City Investment Type  Founded Year  No of Founders  Amount in INR City_Tier Market_Size_Category
+count      30000      30000           30000  30000.000000     30000.00000   3.000000e+04     30000                30000
+unique         8          7               5           NaN             NaN            NaN         2                    3
+top     AgriTech  Hyderabad            Seed           NaN             NaN            NaN    Tier-2                Large
+freq        3818       4353            9005           NaN             NaN            NaN     17335                14996
+mean         NaN        NaN             NaN   2016.527433         3.01150   5.231602e+07       NaN                  NaN
+std          NaN        NaN             NaN      4.052357         1.41604   1.164276e+08       NaN                  NaN
+min          NaN        NaN             NaN   2010.000000         1.00000   5.000210e+05       NaN                  NaN
+25%          NaN        NaN             NaN   2013.000000         2.00000   2.005863e+06       NaN                  NaN
+50%          NaN        NaN             NaN   2017.000000         3.00000   8.693603e+06       NaN                  NaN
+75%          NaN        NaN             NaN   2020.000000         4.00000   4.171674e+07       NaN                  NaN
+max          NaN        NaN             NaN   2023.000000         5.00000   7.995798e+08       NaN                  NaN
+
+CLEANED DATASET
+        industry       city investment_type  founded_year  no_of_founders  amount_in_inr city_tier market_size_category
+count      30000      30000           30000  30000.000000     30000.00000   3.000000e+04     30000                30000
+unique         8          7               5           NaN             NaN            NaN         2                    3
+top     AgriTech  Hyderabad            Seed           NaN             NaN            NaN    Tier-2                Large
+freq        3818       4353            9005           NaN             NaN            NaN     17335                14996
+mean         NaN        NaN             NaN   2016.527433         3.01150   5.231602e+07       NaN                  NaN
+std          NaN        NaN             NaN      4.052357         1.41604   1.164276e+08       NaN                  NaN
+min          NaN        NaN             NaN   2010.000000         1.00000   5.000210e+05       NaN                  NaN
+25%          NaN        NaN             NaN   2013.000000         2.00000   2.005863e+06       NaN                  NaN
+50%          NaN        NaN             NaN   2017.000000         3.00000   8.693603e+06       NaN                  NaN
+75%          NaN        NaN             NaN   2020.000000         4.00000   4.171674e+07       NaN                  NaN
+max          NaN        NaN             NaN   2023.000000         5.00000   7.995798e+08       NaN                  NaN
